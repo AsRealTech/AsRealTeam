@@ -1,0 +1,37 @@
+/*! * AsRealTech v1.0.0 (http://AsRealTech.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/AsRealTech/LICENSE) 
+*/
+
+html{
+    font-family: Sans-serif;
+    background: green;
+}
+
+body {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  color: RGB(55, 58, 50);
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+
+/*button styles */
+
+.btn {
+    
+}
+
+/* border styles */
+
+.bder{
+    border: 1px solid;
+}
+
+/* table styles */
+.t-s{
+    padding: 8px;
+    border: 1px solid #f2f2f2;
+}
+.zebra{
+    background-color: #f2f2f2;
+    color: #000;
+}
