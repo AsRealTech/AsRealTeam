@@ -1,65 +1,136 @@
 /*! * AsRealTech v1.0.0 (http://AsRealTech.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/AsRealTech/LICENSE) 
 */
 
-html{
-    font-family: Sans-serif;
-    background: green;
+
+
+/* -----------------------------
+   Base Styles
+----------------------------- */
+
+html {
+  font-size: 106px;
 }
 
 body {
-  font-family: "Sofia", sans-serif;
-  font-size: 30px;
-  color: RGB(55, 58, 50);
-  text-shadow: 3px 3px 3px #ababab;
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* -----------------------------
+   Modern CSS Reset
+----------------------------- */
+
+/* Box sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+/* Improve text rendering */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Form elements inherit font */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Avoid text overflow */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
 }
 
 
-/*button styles */
+/* -----------------------------
+   CSS Variables
+----------------------------- */
 
-.btn {
-    
+:root {
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-text: #111827;
+  --color-primary: #2563eb;
+  --color-muted: #6b7280;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
 }
 
-/* border styles */
+/* -----------------------------
+   Typography
+----------------------------- */
 
-.bder{
-    border: 1px solid;
-}
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
 
-/* table styles */
-
-a:active {
-    color: rgb(0,255,0)
-}
-
-p::first-letter {
-  font-size: 2em;
+p {
+  color: var(--color-text);
 }
 
-p:first-of-type {
-  font-weight: lighter;
+a {
+  color: var(--color-primary);
+  text-decoration: none;
 }
 
-table,th,td{
-    border: 1px solid rgb(0,255,0);
-    //border-collapse: separate;
-    padding: 10px;
-    width: 80%;
-   //background-color: coral
+a:hover {
+  text-decoration: underline;
 }
-tr:nth-child(even){
-    background-color: #f2f2f2;
-    color: #000
-    
+
+
+/* -----------------------------
+   Layout Helpers
+----------------------------- */
+
+.container {
+  max-width: 1200px;
+  padding: 0 var(--space-md);
+  margin-inline: auto;
 }
-td::first-letter{
-    font-size: 16rem;
+
+.hidden {
+  display: none !important;
 }
-th{
-    border-bottom: 1px solid rgb(0,255,0);
-    background-color: rgba(0,255,0,0.6);
-    color: #fff
+
+
+/* -----------------------------
+   Buttons
+----------------------------- */
+
+button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
 }
-.tableDiv{
-    overflow-x: auto
+
+button:hover {
+  opacity: 0.9;
 }
+
