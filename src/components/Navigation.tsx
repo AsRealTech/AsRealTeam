@@ -1,0 +1,37 @@
+import { useState } from 'react';
+// import { Link } from 'react-router-dom';
+
+export function Navigation() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const menuItems = [
+    { label: 'Home', href: '/' },
+    // { label: 'Skills', href: '#skills' },
+    { label: 'Projects', href: '#projects' },
+    { label: 'About Me', href: '#experience' },
+    // { label: 'Education', href: '#education' },
+    { label: 'Contact', href: '#contact' },
+    { label: 'Portfolio', href: '/portfolio' }
+  ];
+
+  return (
+    <nav className="navbar navbar-expand-sm">
+      <div className="container-fluid">
+        <a className="navbar-brand  text-white" href="/">AsRealTech</a>
+        <button className="navbar-toggler btn-sm bg-body-tertiary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            {menuItems && menuItems.map(
+              (nav) => ( 
+                <a key={nav.label} className="nav-link text-white" href={nav.href}>{nav.label}</a>
+              )
+            )}
+            <a className="btn btn-primary btn-r" aria-current="page" href="#">Lets Talk</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+}
