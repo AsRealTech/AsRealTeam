@@ -1,0 +1,135 @@
+/*! * AsRealTech v1.0.0 (http://AsRealTech.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/AsRealTech/LICENSE) 
+*/
+
+
+/* -----------------------------
+   Base Styles
+----------------------------- */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* -----------------------------
+   Modern CSS Reset
+----------------------------- */
+
+/* Box sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+/* Improve text rendering */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Form elements inherit font */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Avoid text overflow */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+
+/* -----------------------------
+   CSS Variables
+----------------------------- */
+
+:root {
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-text: #111827;
+  --color-primary: #2563eb;
+  --color-muted: #6b7280;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+}
+
+/* -----------------------------
+   Typography
+----------------------------- */
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
+
+p {
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* -----------------------------
+   Layout Helpers
+----------------------------- */
+
+.container {
+  max-width: 1200px;
+  padding: 0 var(--space-md);
+  margin-inline: auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+/* -----------------------------
+   Buttons
+----------------------------- */
+
+button {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
