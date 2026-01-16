@@ -1,4 +1,62 @@
-export const portfolioData = {
+// src/data/portfolio.ts
+
+export interface SkillGroup {
+  category: string;
+  items: string[];
+}
+
+export interface Experience {
+  position: string;
+  company: string;
+  duration: string;
+  responsibilities: string[];
+}
+
+export interface Education {
+  degree: string;
+  institution: string;
+  duration: string;
+  cgpa?: string;
+}
+
+export interface Project {
+  name: string;
+  institution: string;
+  duration: string;
+  description: string;
+  image: string;
+}
+
+export interface FeaturedProject {
+  id: number;
+  title: string;
+  category: string;
+  description: string;
+  technologies: string[];
+  highlights: string[];
+  role: string;
+  link: string;
+}
+
+export interface PortfolioData {
+  name: string;
+  title: string;
+  location: string;
+  phone: string;
+  email: string;
+  website: string;
+  summary: string;
+  preamble: Record<string, string>[];
+  skills: SkillGroup[];
+  experience: Experience[];
+  education: Education[];
+  projects: Project[];
+  featuredProjects: FeaturedProject[];
+  interests: string[];
+  social: Record<string, string>;
+}
+
+export const portfolioData: PortfolioData = {
   name: "IGWECHIMA JOEL CHISOM",
   title: "Web Developer & Library & Information Scientist",
   location: "Nibo, Awka South, Anambra State",
