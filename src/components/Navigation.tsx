@@ -1,8 +1,8 @@
 import { useState } from 'react';
-// import { Link } from 'react-router-dom';
+
 
 export function Navigation() {
- // const [isOpen, setIsOpen] = useState(false);
+ 
 
   const menuItems = [
     { label: 'Home', href: '/' },
