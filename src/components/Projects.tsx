@@ -1,6 +1,4 @@
 import { portfolioData } from '../data/portfolio';
-import pic from "/jc.png"
-import easelaw from "/easelaw.png"
 
 export function Projects() {
   return (
