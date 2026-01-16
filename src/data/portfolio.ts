@@ -156,21 +156,21 @@ export const portfolioData: PortfolioData = {
       institution: "Federal Polytechnic Oko",
       duration: "June 2020 - July 2020",
       description: "Studied the impact of user education on utilization of electronic resources by students.",
-      image: "easelaw.png"
+      image: "/easelaw.png"
     },
     {
       name: "Library Extension Service",
       institution: "Ebonyi State Library Board, Abakaliki",
       duration: "October 2016 - November 2016",
       description: "Conducted assessment of extension services and proposed improvements.",
-       image: "easelaw.png"
+       image: "/easelaw.png"
     },
     {
       name: "Library Extension Services",
       institution: "Ebonyi State Library Board, Abakaliki",
       duration: "October 2016 - November 2016",
       description: "Conducted assessment of extension services and proposed improvements.",
-       image: "easelaw.png"
+       image: "/easelaw.png"
     }
   ],
 
