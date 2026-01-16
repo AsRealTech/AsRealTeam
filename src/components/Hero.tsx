@@ -1,6 +1,5 @@
 import { portfolioData } from '../data/portfolio';
 import { Link } from 'react-router-dom';
-// import picture from "/favicon.ico";
 import jc from "/jc.png"
 
 export function Hero() {
