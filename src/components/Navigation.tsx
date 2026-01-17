@@ -1,8 +1,5 @@
-import { useState } from 'react';
-
 
 export function Navigation() {
- 
 
   const menuItems = [
     { label: 'Home', href: '/' },
