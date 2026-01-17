@@ -63,6 +63,10 @@ a {
 
 /* navbar-nav */
 
+.navbar-toggler{
+  background-color: #6ea0ce;
+}
+
 .navbar-brand::before {
   content: "JC";
   background: #095e9b;

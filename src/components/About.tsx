@@ -30,7 +30,7 @@ export function AboutUs() {
           <div className="About-right-bottom-btn">
                 <a
                   href="#contact"
-                  className="btn btn-primary btn-r"
+                  className="btn btn-sm btn-primary btn-r"
                 >
                   Get In Touch  <i className='fas fa-arrow-right'></i>
                 </a>
