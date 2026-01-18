@@ -5,6 +5,10 @@ export interface SkillGroup {
   items: string[];
 }
 
+export interface ourservices {
+  items: string[];
+}
+
 export interface Experience {
   position: string;
   company: string;
@@ -40,9 +44,12 @@ export interface FeaturedProject {
 
 export interface PortfolioData {
   name: string;
+  companyName?: string;
+  Ourservices: ourservices[],
   title: string;
   location: string;
   phone: string;
+  whatsapplink: string;
   email: string;
   website: string;
   summary: string;
@@ -58,9 +65,11 @@ export interface PortfolioData {
 
 export const portfolioData: PortfolioData = {
   name: "IGWECHIMA JOEL CHISOM",
+  companyName: "AsRealTech",
   title: "Web Developer & Library & Information Scientist",
   location: "Nibo, Awka South, Anambra State",
   phone: "08131311159",
+  whatsapplink: "https://wa.me/message/YK5FDH4FDDJEJ1",
   email: "joelchisom@gmail.com",
   website: "AsRealTech.com.ng",
   
@@ -123,6 +132,19 @@ export const portfolioData: PortfolioData = {
         "Processed new acquisitions and maintained inventory records"
       ]
     }
+  ],
+
+  Ourservices: [
+    { items: [
+        "Web Development",
+        "Mobile App Development",
+        "UI/UX Design",
+        "Digital Marketing",
+        "SEO Services",
+        "E-commerce Solutions"
+      ]
+    }
+
   ],
 
   education: [

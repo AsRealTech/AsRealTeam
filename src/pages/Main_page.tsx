@@ -1,17 +1,10 @@
-import { AboutUs } from "../components/About";
-// import { FeaturedProjects } from "../components/FeaturedProjects";
-import { Hero } from "../components/Hero";
-import { Projects } from "../components/Projects";
-
-
+import { Main_hero } from "../components/Main/Hero";
 
 export default function MainPage(){
     return(
         <>
-            <Hero />
-            <AboutUs />
-            <Projects />
-            {/* <FeaturedProjects /> */}
+
+            <Main_hero />
         
         </>
     )

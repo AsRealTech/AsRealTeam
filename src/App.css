@@ -33,6 +33,7 @@ body {
     sans-serif;
 }
 
+
 a {
   color: inherit;
   text-decoration: none;
@@ -59,7 +60,30 @@ a {
   transform: scale(1.05);
 }
 
+/* logo */
 
+.logo {
+  width: 150px;
+}
+
+.hero-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-inner h1{
+  font-size: 8rem;
+  font-family: cursive;
+}
+.hero-inner span{
+  background-color: #06538a5c;
+  color: #acd2f6;
+  border-radius: 10px;
+  transform: rotate(-3deg);
+  padding: 0 17px;
+  padding-bottom: 4px;
+  display: inline-block;
+}
 
 /* navbar-nav */
 

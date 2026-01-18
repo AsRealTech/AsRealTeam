@@ -1,14 +1,12 @@
+import { portfolioData } from "../data/portfolio";
 
 export function Navigation() {
 
   const menuItems = [
     { label: 'Home', href: '/' },
-    // { label: 'Skills', href: '#skills' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'About Me', href: '#experience' },
-    // { label: 'Education', href: '#education' },
-    { label: 'Contact', href: '#contact' },
-    { label: 'Portfolio', href: '/portfolio' }
+    { label: 'Learn More', href: '#projects' },
+    { label: 'AS Application', href: '#experience' },
+    { label: 'Contact Us', href: '#contact' },
   ];
 
   return (
@@ -25,7 +23,7 @@ export function Navigation() {
                 <a key={nav.label} className="nav-link text-white" href={nav.href}>{nav.label}</a>
               )
             )}
-            <a className="btn btn-primary btn-r" aria-current="page" href="#">Lets Talk</a>
+            <a className="btn btn-primary btn-r" aria-current="page" href={portfolioData.whatsapplink}>Lets Talk</a>
           </div>
         </div>
       </div>

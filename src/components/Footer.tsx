@@ -1,3 +1,5 @@
+import { portfolioData } from "../data/portfolio";
+
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -6,7 +8,7 @@ export function Footer() {
       <div className="col">
         <div className="">
           <div className="text-gray-400 text-sm">
-            <p>&copy; {currentYear} IGWECHIMA JOEL CHISOM. All rights reserved.</p>
+            <p>&copy; {currentYear} {portfolioData.companyName}. All rights reserved.</p>
           </div>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a
