@@ -78,7 +78,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.05;
+  opacity: 0.09;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -90,6 +90,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 70vh !important;
 }
 .hero-inner h1{
   font-size: 7rem;
@@ -153,7 +154,7 @@ a {
 }
 
 .transforming-section-wrapper > p{
-  padding-left: 60px;
+  padding-left: 20px;
 }
 
 .transforming-section-header h2{
@@ -229,6 +230,10 @@ a {
 
   .hero-left, .About-wrapper, #projects, .footer{
     padding-top: 50px;
+  }
+
+  .transforming-section-header h2{
+    font-size: 20px;
   }
 
   .About-right-bottom span{

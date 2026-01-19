@@ -5,7 +5,7 @@ export function Main_hero(){
         <>
             <div className="row main-hero-section">
                 <div className="col">
-                    <div className="hero-inner vh-100">
+                    <div className="hero-inner">
                         <div className="text-center">
 
                         <img className="img-fluid logo mx-auto d-block" src={logo} alt="AS" />

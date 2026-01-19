@@ -61,6 +61,7 @@ export interface PortfolioData {
   featuredProjects: FeaturedProject[];
   interests: string[];
   social: Record<string, string>;
+  About: string;
 }
 
 export const portfolioData: PortfolioData = {
@@ -75,6 +76,8 @@ export const portfolioData: PortfolioData = {
   
   summary: "I'm a passionate Web Developer and trained Library & Information Scientist with hands-on experience in creating responsive websites, managing digital resources, and helping users access relevant information. My core strengths lie in combining technology and information science to solve real-world problems. I've built websites for small businesses, supported research and reference services in academic libraries, and completed user-focused digital projects.",
   
+  About: "At AsRealTech, we specialize in turning your innovative ideas into tangible solutions. Our team of experts leverages the latest technologies to deliver high-quality applications that meet your unique needs. Whether you're looking to develop a web app, mobile app, or custom software, we have the skills and experience to bring your vision to life. Partner with us to transform your ideas into reality and stay ahead in the digital landscape.",
+
  preamble: [
     {
       professional:
