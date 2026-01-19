@@ -11,7 +11,6 @@ export function Navigation() {
 
   return (
     <nav className="navbar navbar-expand-sm">
-      <div className="container-fluid">
         <a className="navbar-brand  text-white" href="/">AsRealTech</a>
         <button className="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" style={{width:"1em",height:"1em"}}></span>
@@ -26,7 +25,6 @@ export function Navigation() {
             <a className="btn btn-primary btn-r" aria-current="page" href={portfolioData.whatsapplink}>Lets Talk</a>
           </div>
         </div>
-      </div>
     </nav>
   );
 }

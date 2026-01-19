@@ -3,7 +3,7 @@ import logo from "/AsRealTech_Logo.png";
 export function Main_hero(){
     return (
         <>
-            <div className="row">
+            <div className="row main-hero-section">
                 <div className="col">
                     <div className="hero-inner vh-100">
                         <div className="text-center">
