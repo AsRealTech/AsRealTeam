@@ -12,7 +12,7 @@ export function Navigation() {
   return (
     <nav className="navbar navbar-expand-sm">
         <a className="navbar-brand  text-white" href="/">AsRealTech</a>
-        <button className="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-togg btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" style={{width:"1em",height:"1em"}}></span>
         </button>
         <div className="collapse navbar-collapse " id="navbarNavAltMarkup">

@@ -1,3 +1,4 @@
+import { Transforming } from "../components/Main/Transforming";
 import { Main_hero } from "../components/Main/Hero";
 
 export default function MainPage(){
@@ -5,6 +6,7 @@ export default function MainPage(){
         <>
 
             <Main_hero />
+            <Transforming />
         
         </>
     )

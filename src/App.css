@@ -144,6 +144,77 @@ a {
   padding-top: 150px;
 }
 
+/* transforming-section */
+
+.transforming-section-wrapper{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #062d4e;
+}
+
+.transforming-section-wrapper > p{
+  padding-left: 60px;
+}
+
+.transforming-section-header h2{
+  background-color: #0a2647;
+  color: #acd2f6;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: emoji;
+  border-radius: 10px;
+  margin: 40px 14px;
+}
+
+.transforming-section-header h2 span{
+  color: #7ea9d8;
+}
+
+.transforming-inner{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.transforming-inner div > div {
+  box-sizing: border-box;
+  margin: 10px;
+}
+.transforming-inner div > div >div{
+  box-shadow: 0 0 10px hsl(210, 62%, 47%);
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.transforming-inner div > div > div small{
+  display: block;
+  margin-top: 10px;
+  color: #a0c4ff;
+}
+
+.transforming-inner div > div > div:hover{
+  background-color: #0a2647;  
+}
+.transforming-inner div > div > div p{
+  color: #acd2f6;
+}
+
+.btn-transforming{
+  box-sizing: border-box;
+  text-transform: uppercase;
+  padding: 7px 18px;
+  margin-bottom: 30px;
+}
+
+
+
 @media screen and (max-width: 768px) {
   .logo{
     width: 100px;
