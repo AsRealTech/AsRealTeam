@@ -219,10 +219,9 @@ a {
 
 .animate-section-wrapper{
   white-space: nowrap;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  padding: 50px 0;
 }
 .animate-section-header::before{
   content: "bring it online, your amazing ideas!";
@@ -258,7 +257,7 @@ a {
   box-sizing: border-box;
 }
 
-.WhyChoose-section-header h2{
+.WhyChoose-section-header h2, .services-section-title{
   color: #acd2f6;
   padding: 10px 10px;
   box-sizing: border-box;
@@ -269,11 +268,10 @@ a {
   margin: 20px 14px;
 }
 
-.WhyChoose-section-content > p{
+.WhyChoose-section-content > p, .services-section-header > p{
   padding: 10px 0;
   text-align: center;
   font-size: 1.2rem;
-  width: 50%;
   margin: 0 auto;
 }
 
@@ -318,6 +316,32 @@ a {
   font-family: fantasy;
 }
 
+.accordion{
+  margin-top: 30px;
+  padding-bottom: 100px;
+  --bs-accordion-bg: rgba(31, 53, 76, 0.70)!important;
+  --bs-accordion-color:#6ea0ce;
+  --bs-accordion-border-color: #6ea0ce;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: #095e9b;
+  color: #fff;
+}
+
+.accordion-button {
+  background-color: rgba(31, 53, 76, 0.70);
+  color: #acd2f6;
+} 
+.accordion-header > .accordion-button::after{
+  background-color: #acd2f64e;
+}
+
+
+
+
+/* @media */
+
 @media screen and (max-width: 768px) {
   .logo{
     width: 100px;
@@ -337,6 +361,7 @@ a {
   .transforming-section-header h2{
     font-size: 20px;
   }
+  
 
   .About-right-bottom span{
     font-size: 1.5rem!important;

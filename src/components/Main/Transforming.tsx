@@ -13,14 +13,14 @@ export function Transforming(){
                         <div className="row">
                         <div className="col-sm">
                             <section className='d-flex justify-content- align-items-center header-trans'>
-                                <small><i className="fas fa-lightbulb fa-3x mb-3"></i></small>
+                                <small><i className="fas fa-lightbulb fa-3x m-2"></i></small>
                                 <h4>Innovative Ideas</h4>
                             </section>
                                 <p>We thrive on creativity and innovation, turning your concepts into functional solutions.</p>
                         </div>
                         <div className="col-sm">
                             <section className='d-flex justify-content- align-items-center header-trans'>
-                                <small><i className="fas fa-cogs fa-3x mb-3"></i></small>
+                                <small><i className="fas fa-cogs fa-3x m-2"></i></small>
                                 <h4>Cutting-Edge Technology</h4>
                             </section>
                             <p>Utilizing the latest tools and technologies to build robust and scalable applications.</p>
@@ -28,7 +28,7 @@ export function Transforming(){
                         </div>
                         <div className="col-sm">
                             <section className='d-flex justify-content align-items-center header-trans'>
-                                <small><i className="fas fa-rocket fa-3x mb-3"></i></small>
+                                <small><i className="fas fa-rocket fa-3x m-2"></i></small>
                                 <h4>Real-World Solutions</h4>
                             </section>
                             <p>Delivering practical and effective solutions that drive business growth and success.</p>
