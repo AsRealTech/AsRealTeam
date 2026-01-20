@@ -90,7 +90,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh !important;
+  height: 90vh !important;
 }
 .hero-inner h1{
   font-size: 7rem;
@@ -215,6 +215,108 @@ a {
 }
 
 
+/* animate-section-header */
+
+.animate-section-wrapper{
+  white-space: nowrap;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.animate-section-header::before{
+  content: "bring it online, your amazing ideas!";
+  padding-left: 100%;
+  display: inline-block;
+  animation: scroll-left 100s linear infinite;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 8rem;
+  color: transparent;
+  -webkit-text-stroke: 2px #0f4470;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} 
+
+/* WhyChoose-section-wrapper */
+
+.WhyChoose-section-wrapper{
+  margin: 50px 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.WhyChoose-section-header h2{
+  color: #acd2f6;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: emoji;
+  border-radius: 10px;
+  margin: 20px 14px;
+}
+
+.WhyChoose-section-content > p{
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.WhyChoose-section-header p{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.WhyChoose-inner{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.WhyChoose-inner .col-sm{
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(31, 53, 76, 0.70);
+  box-shadow: 0 0 10px hsl(210, 62%, 47%);
+}
+
+.WhyChoose-inner .col-sm:hover{
+  background-color: #0a2647;  
+}
+
+.WhyChoose-inner .col-sm h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600; 
+  color: #acd2f6;
+}
+
+.WhyChoose-inner .col-sm span em{
+  color: #e0e7ff;
+  font-size: 2rem;
+  font-family: fantasy;
+}
 
 @media screen and (max-width: 768px) {
   .logo{

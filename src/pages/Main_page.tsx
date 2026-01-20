@@ -1,5 +1,7 @@
 import { Transforming } from "../components/Main/Transforming";
 import { Main_hero } from "../components/Main/Hero";
+import { Animate } from "../components/Main/Animate";
+import { WhyChooseUs } from "../components/Main/WhyChooseUs";
 
 export default function MainPage(){
     return(
@@ -7,7 +9,8 @@ export default function MainPage(){
 
             <Main_hero />
             <Transforming />
-        
+            <Animate />
+            <WhyChooseUs />
         </>
     )
 }

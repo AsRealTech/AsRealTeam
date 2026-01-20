@@ -38,7 +38,7 @@ export function Transforming(){
                 </div>
                 <div className="col-md-12 text-center mb-3 mt-3">
                     <h4>Ready to bring your digital vision to life?</h4>
-                    <p>Whether you need a simple website or a complex application, SDL has the expertise to deliver solutions that meet your unique needs.</p>
+                    <p>Whether you need a simple website or a complex application, AsRealTech has the expertise to deliver solutions that meet your unique needs.</p>
                 </div>
                 <div className="col-md-12 text-center">
                     <a className="btn btn-primary btn-transforming" href={portfolioData.whatsapplink}>Start Your Project Now <i className="fas fa-arrow-right"></i> </a>
