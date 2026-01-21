@@ -72,7 +72,7 @@ a {
 }
 
 .main-hero-section::after{
-  content: url('../public/hero_bg.gif');
+  content: url('../hero_bg.gif');
   position: fixed;
   top: 0;
   left: 0;
