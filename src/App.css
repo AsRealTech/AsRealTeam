@@ -67,6 +67,44 @@ a {
   box-shadow: 0 8px 20px rgba(96, 165, 250, 0.3);
 }
 
+/* whatsapp-icon */
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 150px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: glowing 2s ease-in-out infinite;
+  z-index: 1000;
+}
+
+/* glowing  */
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px #25d366, 0 0 10px #25d366;
+  }
+  50% {
+    box-shadow: 0 0 20px #25d366, 0 0 40px #25d366;
+  }
+  100% {
+    box-shadow: 0 0 5px #25d366, 0 0 10px #25d366;
+  }
+}
+
+.whatsapp-icon:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
 /* logo */
 
 .logo {

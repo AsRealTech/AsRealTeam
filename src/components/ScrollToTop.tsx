@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import '../styles/ScrollToTop.css';
+import { portfolioData } from '../data/portfolio';
 
 export function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,6 +29,21 @@ export function ScrollToTop() {
 
   return (
     <>
+
+      {/* whatsApp icon */}
+
+      <div className="whatsapp-icon">
+        <a
+          href={portfolioData.whatsapplink}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Contact via WhatsApp"
+          title="Contact via WhatsApp"
+        >
+          <i className="fab fa-whatsapp fa-2x"></i>
+        </a>
+      </div>
+
       {isVisible && (
         <button
           type="button"
