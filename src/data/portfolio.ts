@@ -44,7 +44,8 @@ export interface FeaturedProject {
 
 export interface PortfolioData {
   name: string;
-  companyName?: string;
+  companyName: string;
+  companyEmail: string;
   Ourservices: ourservices[],
   title: string;
   location: string;
@@ -62,6 +63,11 @@ export interface PortfolioData {
   interests: string[];
   social: Record<string, string>;
   About: string;
+  companyPhone: string;
+  linkedlin: string;
+  facebook: string;
+  x: string;
+  github: string;
 }
 
 export const portfolioData: PortfolioData = {
@@ -72,7 +78,13 @@ export const portfolioData: PortfolioData = {
   phone: "08131311159",
   whatsapplink: "https://wa.me/message/YK5FDH4FDDJEJ1",
   email: "joelchisom@gmail.com",
-  website: "AsRealTech.com.ng",
+  website: "AsRealTech.org",
+  companyEmail: "asrealzym@gmail.com",
+  companyPhone: "+2349047439441",
+  facebook: "https://facebook.com/2349047439441",
+  linkedlin: "https://linkedlin.com/AsRealTech",
+  x: "https://x.com/AsRealTech",
+  github: "https://github.com/AsRealTech",
   
   summary: "I'm a passionate Web Developer and trained Library & Information Scientist with hands-on experience in creating responsive websites, managing digital resources, and helping users access relevant information. My core strengths lie in combining technology and information science to solve real-world problems. I've built websites for small businesses, supported research and reference services in academic libraries, and completed user-focused digital projects.",
   
@@ -278,4 +290,7 @@ export const portfolioData: PortfolioData = {
     x: "https://x.com",
     github: "https://github.com"
   }
+
+
+
 };
