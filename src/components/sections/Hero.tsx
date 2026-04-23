@@ -21,19 +21,21 @@ export function Hero() {
           </div>
           
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-[1.05] mb-8 text-balance">
-            Transforming <span className="text-muted-foreground">Ideas</span> into Reality with  <span className="italic font-serif font-light">Cutting-Edge Solutions</span>
+            We design and build  
+ <span className="text-muted-foreground">scalable software</span> systems <span className="italic font-serif font-light">for modern businesses.</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-12">
-            We build custom websites, software, and applications that help businesses and entrepreneurs establish their digital presence and streamline their operations.
+            From web applications to custom platforms, we help teams turn ideas into reliable, production-ready products.
+
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="h-14 px-8 text-base rounded-full shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5" asChild>
-              <a href={portfolioData?.whatsapplink}>Start a conversation</a>
+              <a href={portfolioData?.whatsapplink}>Start a Project</a>
             </Button>
             <Button size="lg" variant="outline" className="h-14 px-8 text-base rounded-full" asChild>
-              <a href="#work">View selected work</a>
+              <a href="#work">View work</a>
             </Button>
           </div>
         </motion.div>
