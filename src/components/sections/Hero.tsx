@@ -22,7 +22,7 @@ export function Hero() {
           
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-[1.05] mb-8 text-balance">
             We design and build  
- <span className="text-muted-foreground">scalable software</span> systems <span className="italic font-serif font-light">for modern businesses.</span>
+ <span className="text-muted-foreground"> scalable software</span> systems <span className="italic font-serif font-light">for modern businesses.</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-12">
