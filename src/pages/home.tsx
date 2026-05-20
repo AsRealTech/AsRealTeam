@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Check, GithubIcon, LinkedinIcon, Mail, MailCheckIcon, MapPin, X } from "lucide-react";
+import { ArrowUpRight, Check, GithubIcon, LinkedinIcon, Mail, MailCheckIcon, MapPin, MessageCircle, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -283,6 +283,19 @@ export default function Home() {
                 <li><a href={portfolioData?.github} className="hover:text-primary transition-colors">GitHub</a></li>
               </ul>
             </div>
+          </div>
+          {/* whatsApp icon */}
+
+          <div className="whatsapp-icon">
+            <a
+              href={portfolioData.whatsapplink}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Contact via WhatsApp"
+              title="Contact via WhatsApp"
+            >
+              <MessageCircle />
+            </a>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 pt-8 border-t border-border/60">
