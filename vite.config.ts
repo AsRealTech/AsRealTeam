@@ -15,7 +15,7 @@ const port = Number(process.env.PORT) || 3000;
 // }
 
 export default defineConfig({
-  base: "",
+    base: "/",
   plugins: [
     react(),
     tailwindcss(),
@@ -30,7 +30,7 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
   },
   server: {
