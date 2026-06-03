@@ -233,6 +233,10 @@ export default function JoelCV() {
                 </p>
               </div>
             </div>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="joel-chisom-igwechima-24391b2b8" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ng.linkedin.com/in/joel-chisom-igwechima-24391b2b8?trk=profile-badge">Joel Chisom Igwechima</a></div>
+              
+           
           </section>
         </main>
       </div>
